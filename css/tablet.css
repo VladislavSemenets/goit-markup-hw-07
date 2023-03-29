@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 766px;
+	}
+
+	.team {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+
+.team-item {
+        width: 264px;
+}
+
+	.team-list {
+        display: flex;
+        justify-content: center;
+		gap: var(--basic-margin);
+	}
+
+    .customer-list {
+        gap: 24px;
+    }
+    
+}
+
+/* @media screen and (min-width: 768px), (max-width:1199px) {
+    .container-sm {
+        max-width: 582px;
+    }
+} */
+
+

@@ -1,0 +1,17 @@
+@media screen and (min-width: 1201px){
+	.container {
+		max-width: 1158px;
+	}
+.team {
+    padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.team-item {
+    width: 264px;
+}
+
+.customers-list {
+    gap: 24px;
+}
+    }
