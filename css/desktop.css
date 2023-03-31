@@ -1,17 +1,105 @@
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1201px) {
 	.container {
 		max-width: 1158px;
 	}
-.team {
-    padding-top: 120px;
-	padding-bottom: 120px;
-}
 
-.team-item {
-    width: 264px;
-}
+	/* ------------TEAM--------------- */
+	.team {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 
-.customers-list {
-    gap: 24px;
-}
+	.team-item {
+		width: 264px;
+	}
+
+	/* -----------CUSTOMERS------------- */
+	.customers-list {
+		gap: 24px;
+	}
+
+	/* ---------FOOTER------------ */
+	.footer-link {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.footer-container {
+		display: flex;
+	}
+
+	.footer-second {
+		margin-left: 120px;
+		margin-right: 80px;
+		margin-top: 0;
+	}
+
+	.footer-text-2 {
+		display: block;
+	}
+
+	.email-send {
+		width: 264px;
+	}
+
+	.subscribe {
+		display: block;
+	}
+
+	.subscribe-btn {
+		margin-top: 0px;
+		margin-left: 24px;
+	}
+
+	.email-send-form {
+		margin-top: 0;
+	}
+
+	.form-input-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* --------WORKS--------- */
+	.works {
+		display: block;
+        padding: 120px 0;
+	}
+
+    .features-icon {
+        display: block;
     }
+
+	/* ------------FEAUTERS----------- */
+	.features-list {
+		display: flex;
+		gap: var(--basic-margin);
+		flex-wrap: nowrap;
+		flex-direction: initial;
+	}
+
+    .features-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 112px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        background: #f4f4fd;
+    }
+
+	.title-description {
+		width: 264px;
+	}
+
+    .secondary-features-title {
+        font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+    text-align: start;
+	width: 264px;
+    }
+}
