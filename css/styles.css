@@ -77,7 +77,6 @@ img {
 	font-size: 18px;
 	line-height: 1.33;
 	text-transform: uppercase;
-	margin-right: 76px;
 	color: #2e2f42;
 }
 .header-logo > span {
@@ -96,6 +95,18 @@ img {
 
 .header-list-adress {
 	display: none;
+}
+
+.modal-menu-btn {
+	display: flex;
+	align-self: center;
+	background-color: transparent;
+	margin-left: auto;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #2e2f42;
 }
 /* -----HERO----- */
 .main {
@@ -562,7 +573,6 @@ img {
 }
 .links-list {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 	gap: var(--basic-margin);
 }

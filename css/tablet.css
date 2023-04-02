@@ -15,6 +15,9 @@
 		}
 	}
 
+	.hader-logo {
+		margin-right: 76px;
+	}
 	.header-list {
 		display: flex;
 		gap: 40px;

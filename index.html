@@ -24,10 +24,17 @@
 		<link rel="stylesheet" href="./css/desktop.css" />
 	</head>
 	<body>
+		<!-- --------------header------------- -->
 		<header class="header">
 			<div class="container header-container">
 				<nav class="header-nav">
 					<a href="./index.html" class="header-logo link"><span>Web</span>Studio</a>
+
+					<button type="button" class="modal-menu-btn btn" data-menu-open>
+						<svg class="modal-menu-btn-svg" width="32px" height="22px">
+							<use href="./images/icons.svg.svg#icon-menu"></use>
+						</svg>
+					</button>
 
 					<ul class="header-list list">
 						<li class="header-item"><a href="./index.html" class="header-link-studio link active">Studio</a></li>
@@ -490,5 +497,9 @@
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
+
+		<div class="backdrop is-hidden" data-menu>
+			<div class="modal-menu"> </div>
+		</div>
 	</body>
 </html>
