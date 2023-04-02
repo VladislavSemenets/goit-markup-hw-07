@@ -164,7 +164,7 @@ img {
 .features-list {
 	display: flex;
 	flex-direction: column;
-	}
+}
 
 .secondary-features-title {
 	font-weight: 700;
@@ -184,15 +184,13 @@ img {
 	color: #434455;
 }
 
-
-
 .features-icon {
 	display: none;
 }
 /* ----our works---- */
 
 .works {
-		display: none;
+	display: none;
 }
 
 /* -----team---- */
@@ -502,7 +500,6 @@ img {
 .filter-btn-list {
 	display: flex;
 	flex-wrap: wrap;
-	width: 310px;
 	row-gap: 16px;
 	gap: var(--basic-margin);
 	margin-bottom: 48px;
@@ -532,7 +529,6 @@ img {
 		border var(--time-func);
 }
 
-
 .filter-btn:hover,
 .filter-btn:focus {
 	border: 1px solid #404bbf;
@@ -542,8 +538,6 @@ img {
 }
 /* --------links,apps-------- */
 .row-1-2 {
-	
-
 }
 
 .filter-btns-apps {
