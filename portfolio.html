@@ -29,6 +29,12 @@
 				<nav class="header-nav">
 					<a href="./index.html" class="header-logo link"><span>Web</span>Studio</a>
 
+					<button type="button" class="modal-menu-btn js-open-menu btn">
+						<svg class="modal-menu-btn-svg" width="32px" height="22px">
+							<use href="./images/icons.svg.svg#icon-menu"></use>
+						</svg>
+					</button>
+
 					<ul class="header-list list">
 						<li class="header-item"><a href="./index.html" class="header-link link">Studio</a></li>
 						<li class="header-item"
@@ -401,6 +407,7 @@
 				</form>
 			</div>
 		</footer>
+		<!-- ----------MODAL MENU--------- -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" class="modal-close btn active" data-modal-close>
@@ -461,6 +468,68 @@
 				</form>
 			</div>
 		</div>
+
+		<!-- ----------MOBILE MENU--------- -->
+
+		<div class="js-menu-container modal-menu">
+			<div class="menu-wrap">
+			<button type="button " class="modal-close js-close-menu btn active">
+				<svg class="modal-btn-svg" width="8px" height="8px">
+					<use href="./images/icons.svg.svg#icon-close-backdrop"></use>
+				</svg>
+			</button>
+			
+			<ul class="header-list-menu list">
+				<li class="header-item-menu"><a href="./index.html" class="header-link-menu link">Studio</a></li>
+				<li class="header-item-menu"><a href="./portfolio.html" class="header-link-menu-portfolio link">Portfolio</a></li>
+				<li class="header-item-menu"><a href="" class="header-link-menu link">Contacts</a></li>
+			</ul>
+			<div class="social-wrap">
+				<address class="header-adress-menu">
+					<ul class="header-list-adress-menu list">
+						<li class="header-item-adress-menu"
+							><a href="tel:+110001111111" class="header-link-adress-tel link">+11 (000) 111-11-11</a></li
+						>
+						<li class="header-item-adress-menu"
+							><a href="mailto:info@devstudio.com" class="header-link-adress-mail link">info@devstudio.com</a></li
+						>
+					</ul>
+				</address>
+				<ul class="team-social-list-menu list">
+					<li class="team-social-item">
+						<a href="" class="team-social-link-footer link">
+							<svg class="team-social-icon-footer" width="20" height="20">
+								<use href="./images/icons.svg.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="team-social-item">
+						<a href="" class="team-social-link-footer link">
+							<svg class="team-social-icon-footer" width="20" height="20">
+								<use href="./images/icons.svg.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="team-social-item">
+						<a href="" class="team-social-link-footer link">
+							<svg class="team-social-icon-footer" width="20" height="20">
+								<use href="./images/icons.svg.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="team-social-item">
+						<a href="" class="team-social-link-footer link">
+							<svg class="team-social-icon-footer" width="20" height="20">
+								<use href="./images/icons.svg.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+
 		<script src="./js/modal.js"></script>
+		<script src="./js/mobile-menu.js"></script>
 	</body>
 </html>
