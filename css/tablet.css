@@ -18,6 +18,13 @@
 	.hader-logo {
 		margin-right: 76px;
 	}
+
+	.modal-menu-btn {
+		display: none;
+	}
+
+	
+
 	.header-list {
 		display: flex;
 		gap: 40px;

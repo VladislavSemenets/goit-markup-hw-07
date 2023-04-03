@@ -883,3 +883,143 @@ img {
 	border: none;
 	background-image: url(../images/click-svg.svg);
 }
+
+.backdrop-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #3f51b5;
+	z-index: 999;
+
+	transform: translateX(100%);
+	transition: transform 250ms ease-in-out;
+}
+
+.modal-menu {
+	display: flex;
+	padding-left: 40px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #ffffff;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+	z-index: 999;
+
+	transform: translateX(150%);
+	transition: transform var(--time-func);
+}
+
+.menu-wrap {
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.modal-menu.is-open {
+	transform: translateX(0);
+}
+
+.header-link-studio {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+}
+
+.header-list-menu {
+	margin-top: 32px;
+}
+
+.header-link-menu-studio {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #404bbf;
+}
+
+.header-link-menu-portfolio {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #404bbf;
+}
+
+.header-link-menu {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2e2f42;
+	transform: color var(--time-func);
+}
+
+.header-item-menu:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.header-link-menu:hover,
+.header-link-menu:focus {
+	color: #404bbf;
+}
+
+.team-social-list-menu {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 48px;
+}
+
+.header-list-adress-menu {
+	font-style: normal;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.header-link-adress-tel {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	color: #434455;
+
+	transform: color var(--time-func);
+}
+
+.header-link-adress-tel:hover {
+	color: #4d5ae5;
+}
+
+.header-link-adress-mail {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #434455;
+	transform: color var(--time-func);
+}
+
+.header-item-adress-mail:hover {
+	color: #4d5ae5;
+}
+
+.social-wrap {
+	margin-top: auto;
+}
