@@ -23,8 +23,6 @@
 		display: none;
 	}
 
-	
-
 	.header-list {
 		display: flex;
 		gap: 40px;
@@ -72,7 +70,7 @@
 		border-radius: 2px;
 		position: absolute;
 		left: 0px;
-		top: 44px;
+		top: 56px;
 	}
 
 	.header-link-portfolio.active::after {
@@ -99,35 +97,27 @@
 	}
 	.header-link-adress-mail {
 		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.04em;
 		color: #434455;
 		transition: color var(--time-func);
 	}
 	.header-link-adress-tel {
 		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.04em;
 		color: #434455;
 		transition: color var(--time-func);
 	}
 	.header-link-adress-mail:hover,
 	.header-link-adress-mail:focus {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
 		color: var(--background-btn-color);
 	}
 	.header-link-adress-tel:hover,
 	.header-link-adress-tel:focus {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-		color: var(--background-btn-color);
+			color: var(--background-btn-color);
 	}
 	.header-logo {
 		margin-right: 120px;

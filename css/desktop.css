@@ -10,6 +10,29 @@
 		gap: 40px;
 	}
 
+	.header-link-studio.active::after {
+		top: 44px;
+	}
+	
+
+	.header-link-adress-mail {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+		transition: color var(--time-func);
+	}
+	.header-link-adress-tel {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+		transition: color var(--time-func);
+	}
+
+	
 	/* ---------------HERO--------------- */
 	.hero {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -29,6 +52,10 @@
 	}
 
 	/* ------------FEAUTERS----------- */
+	.features {
+		padding-top: 120px;
+		padding-bottom: 0;
+	}
 	.features-icon {
 		display: block;
 	}
@@ -104,12 +131,11 @@
 
 	.footer-container {
 		display: flex;
+		justify-content: space-between;
 	}
 
 	.footer-second {
-		margin-left: 120px;
-		margin-right: 80px;
-		margin-top: 0;
+				margin-top: 0;
 	}
 
 	.footer-text-2 {
@@ -126,7 +152,7 @@
 
 	.subscribe-btn {
 		margin-top: 0px;
-		margin-left: 24px;
+		
 	}
 
 	.email-send-form {
@@ -152,5 +178,11 @@
 
 	.links-item {
 		width: 360px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container-sm {
+		max-width: 1128px;
 	}
 }
