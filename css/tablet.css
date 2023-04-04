@@ -2,6 +2,8 @@
 	.container {
 		max-width: 768px;
 	}
+	/* ----------MOBILE MENU---------- */
+	
 
 	/* ----------HEADER---------- */
 	.hero {
@@ -117,7 +119,7 @@
 	}
 	.header-link-adress-tel:hover,
 	.header-link-adress-tel:focus {
-			color: var(--background-btn-color);
+		color: var(--background-btn-color);
 	}
 	.header-logo {
 		margin-right: 120px;
@@ -132,7 +134,8 @@
 
 	/* ------------FEAUTERS----------- */
 	.features {
-		padding: 96px 0;
+		padding-top: 96px;
+		padding-bottom: 96px;
 	}
 
 	.features-list {
@@ -233,6 +236,11 @@
 		display: flex;
 		justify-content: flex-start;
 		width: 356px;
+	}
+
+	/* ----------MODAL------------- */
+	.modal {
+		width: 408px;
 	}
 }
 

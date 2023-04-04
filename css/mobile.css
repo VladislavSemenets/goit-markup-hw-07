@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px), (max-width: 427px){
+    .header-link-adress-tel {
+        font-size: 28px;
+}
+
+.custom-click {
+    width: 18px;
+}
+
+.team-social-list-menu {
+    gap: 30px;
+}
+.modal {
+    width: 300px
+}
+
+@media screen and (min-width: 480px) {
+    .header-link-adress-tel {
+        font-size: 36px;
+} 
+.team-social-list-menu {
+    gap: 56px;
+}
+
+/* ----------MODAL------------- */
+.modal {
+    width: 392px;
+}
+}
+

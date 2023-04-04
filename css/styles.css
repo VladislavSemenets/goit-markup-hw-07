@@ -45,6 +45,7 @@ ol {
 	padding: 0;
 }
 button {
+	cursor: pointer;
 }
 .list {
 	list-style-type: none;
@@ -136,7 +137,8 @@ img {
 	text-transform: capitalize;
 	margin: 0 auto;
 	margin-bottom: 48px;
-	width: 320px;
+	max-width: 320px;
+	width: 100%;
 	color: #ffffff;
 }
 .hero-btn {
@@ -174,7 +176,7 @@ img {
 	padding: 96px 0;
 }
 
-.features-item:not(last-child) {
+.features-item:not(:last-child) {
 	margin-bottom: 72px;
 }
 
@@ -194,11 +196,10 @@ img {
 	color: var(--secondary-title-color);
 }
 .title-description {
-	font-weight: 400;
+	ont-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-
 	width: 100%;
 	color: #434455;
 }
@@ -665,22 +666,21 @@ img {
 	transform: translate(-50%, -50%);
 }
 .modal-close {
-		width: 24px;
+	width: 24px;
 	height: 24px;
 	margin-top: 32px;
 	margin-right: 32px;
 	margin-left: auto;
 	border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    background-color: #E7E9FC;
+	width: 24px;
+	height: 24px;
+	background-color: #e7e9fc;
 	color: #000;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	transform: background-color var(--time-func), color var(--time-func);
-	
 }
 
 .modal-close:hover,
@@ -704,7 +704,7 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
-		margin-bottom: 16px;
+	margin-bottom: 16px;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
@@ -722,6 +722,7 @@ img {
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
+	margin-bottom: 4px;
 	color: #8e8f99;
 }
 
@@ -960,7 +961,6 @@ img {
 
 .team-social-list-menu {
 	display: flex;
-	justify-content: space-between;
 	margin-top: 48px;
 }
 
