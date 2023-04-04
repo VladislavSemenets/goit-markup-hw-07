@@ -3,7 +3,6 @@
 		max-width: 768px;
 	}
 	/* ----------MOBILE MENU---------- */
-	
 
 	/* ----------HEADER---------- */
 	.hero {
@@ -127,7 +126,6 @@
 
 	/* -------------HERO------------- */
 	.hero-title {
-		font-size: 56px;
 		line-height: 1.07;
 		width: 496px;
 	}
@@ -140,14 +138,17 @@
 
 	.features-list {
 		display: flex;
-		justify-content: flex-start;
 		flex-wrap: wrap;
 		row-gap: 72px;
-		gap: var(--basic-margin);
+		column-gap: var(--basic-margin);
 		flex-direction: initial;
 	}
 
 	.title-description {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
 		width: 356px;
 	}
 

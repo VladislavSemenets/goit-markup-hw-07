@@ -113,8 +113,8 @@ img {
 .main {
 }
 .hero {
-	padding-top: 188px;
-	padding-bottom: 188px;
+	padding-top: 112px;
+	padding-bottom: 112px;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-mobile-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -176,13 +176,14 @@ img {
 	padding: 96px 0;
 }
 
-.features-item:not(:last-child) {
+/* .features-item:not(:last-child) {
 	margin-bottom: 72px;
-}
+} */
 
 .features-list {
 	display: flex;
 	flex-direction: column;
+	row-gap: 72px;
 }
 
 .secondary-features-title {
@@ -192,11 +193,12 @@ img {
 	text-align: center;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
+
 	margin-bottom: 8px;
 	color: var(--secondary-title-color);
 }
 .title-description {
-	ont-weight: 500;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -292,7 +294,7 @@ img {
 
 /* ----------customers-------------- */
 .customers {
-	padding: 120px 0;
+	padding: 96px 0;
 }
 .customer-title {
 	font-size: 36px;
