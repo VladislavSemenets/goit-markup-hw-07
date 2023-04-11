@@ -793,7 +793,6 @@ img {
 
 .modal-form-check-desc {
 	display: flex;
-	align-items: center;
 	margin-top: 16px;
 	margin-bottom: 24px;
 }
@@ -868,6 +867,7 @@ img {
 .modal-form-check:checked + .custom-click {
 	border: none;
 	background-image: url(../images/click-svg.svg);
+	background-repeat: no-repeat;
 }
 
 .backdrop-menu {
